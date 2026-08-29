@@ -140,7 +140,7 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
+<style>
 /* Comparten el mismo diseño estilizado del sistema */
 .catalog-container { min-height: calc(100vh - 70px); background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; }
 .hero-section { background: linear-gradient(135deg, #2c3e50, #d35400); color: white; padding: 3rem 2rem; text-align: center; }
