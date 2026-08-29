@@ -175,7 +175,7 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .catalog-container { min-height: calc(100vh - 70px); background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; }
 .hero-section { background: linear-gradient(135deg, #2c3e50, #16a085); color: white; padding: 3rem 2rem; text-align: center; }
 .hero-content { max-width: 700px; margin: 0 auto; }
