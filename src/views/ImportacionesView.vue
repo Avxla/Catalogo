@@ -180,7 +180,7 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .catalog-container {
   min-height: calc(100vh - 70px);
   background-color: #f4f7f6;
