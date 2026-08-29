@@ -109,7 +109,7 @@ const alertarAcceso = () => {
 }
 </script>
 
-<style scoped>
+<style>
 .catalog-container {
   min-height: 100vh;
   background-color: #f4f7f6;
