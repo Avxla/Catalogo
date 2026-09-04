@@ -5,10 +5,7 @@
       <div class="logo">
         <h1>Catálogo Bulk</h1>
       </div>
-      <div class="nav-links">
-        <router-link to="/login" class="btn-login" v-if="!authStore.token">Iniciar Sesión</router-link>
-        <router-link to="/admin/productos" class="btn-login" v-else>Panel Admin</router-link>
-      </div>
+      
     </header>
 
     <!-- Sección Hero / Banner Principal -->
@@ -485,7 +482,6 @@ onMounted(() => {
   font-size: 0.85rem;
   margin-bottom: 1rem;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
